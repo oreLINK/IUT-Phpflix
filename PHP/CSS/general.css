@@ -1,0 +1,251 @@
+/* Contenu du body */
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/* Pour tous les paragraphes */
+p,h1,h2,h3,h4,h5,h6,ul,li,label {
+    color: rgb(236, 238, 240);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+    color: rgb(236, 238, 240);
+    font-style: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    color: rgb(182, 182, 182);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* BOUTONS */
+.button,input[type="submit"] {
+    background-color: rgb(211,47,39);
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.button:hover,input[type="submit"]:hover {
+    background-color: rgb(211,47,39);
+    border: none;
+    color: rgb(182, 182, 182);
+    padding: 8px 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.formulaire {
+    background-color: rgb(211,47,39);
+}
+
+
+
+/* BANDEAU */
+.bandeau {
+    display: flex;
+    height: auto;
+    justify-content: flex-start;
+}
+
+/* logo/titre placement */
+.logo {
+    display: inline;
+    margin-left: 4%;
+    vertical-align: middle;
+}
+
+/* logo/titre design */
+.logo a {
+    font-family: "Bebas Neue", Arial;
+    position: relative;
+    color: rgb(211,47,39);
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+/* barre de liens placement */
+.nav {
+    position: relative;
+    width: 75%;
+    margin-left: 4%;
+    margin-top: 8px;
+}
+
+/* barre de liens design */
+.nav a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 0 15px 3px 0;  
+}
+
+/*barre de liens > utilisateur placement*/
+.compte {
+    position: relative;
+    width: 100%;
+    margin-top: 8px;
+    text-align: right;
+}
+
+/*barre de liens > utilisateur design*/
+.compte a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding: 0 15px 3px 0; 
+}
+
+/*PAGE menu.php*/
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: flex-start;
+    margin: 4% 4% 4% 4%;
+}
+
+.case {
+    margin : 1% 0 1% 2;
+    width: 33%;
+}
+
+.case-texte {
+    display: block;
+    margin-right: 1%;
+}
+
+.indication-vert p {
+    display: table;
+    font-size: 9px;
+    width: fit-content;
+    text-align: center;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 3%;
+    background-color: green;
+    border-radius: 3px;
+}
+
+.indication-orange p {
+    display: table;
+    font-size: 9px;
+    width: fit-content;
+    text-align: center;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 3%;
+    background-color: darkorange;
+    border-radius: 3px;
+}
+
+.indication-rouge p {
+    display: table;
+    font-size: 9px;
+    width: fit-content;
+    text-align: center;
+    padding: 3px 6px 3px 6px;
+    margin-bottom: 3%;
+    background-color: rgb(211,47,39);
+    border-radius: 3px;
+}
+
+/*PAGE type d'un exercice*/
+
+.content-pagetype{
+    display: block;
+    height: auto;
+    margin: 4% 4% 4% 4%;
+}
+
+.originaltext-pagetype p{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.title-pagetype h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a.lienretour-pagetype {
+    font-weight: bold;
+    background-color: rgb(211,47,39);
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+a.lienretour-pagetype:hover {
+    font-weight: bold;
+    background-color: rgb(231, 65, 56);
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.listeinfos-pagetype{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: flex-start;
+}
+
+.picto-listeinfos-pagetype {
+    display: table;
+    font-size: 12px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    padding: 0 3px 0 3px;
+    margin-right: 1%;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.picto-listeinfos-pagetype p{
+    margin: 3px 3px 3px 3px;
+}
+
+.description-pagetype p{
+    width: 50%;
+}
+
+.exercice-pagetype{
+    margin-top: 4%;
+}

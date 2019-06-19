@@ -1,0 +1,12 @@
+@using System.Data.Linq.Mapping
+@using Microsoft.Ajax.Utilities
+@model dynamic
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    var db =
+}
+
+<h2>title</h2>
+@foreach(var row in db.Query)

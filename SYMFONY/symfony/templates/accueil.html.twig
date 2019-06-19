@@ -1,0 +1,6 @@
+{% block stylesheets %}
+    <link href="{{ asset('css/design.css') }}" rel="stylesheet" />
+{% endblock %}
+<h1>BIENVENUE WESH</h1>
+<a href="{{ path('hello',{'nom':'Alice'}) }}">Alice</a>
+<a href="{{ path('hello',{'nom':'Bob'}) }}">Bob</a>
